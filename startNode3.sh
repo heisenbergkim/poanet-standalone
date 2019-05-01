@@ -1,0 +1,2 @@
+#!/bin/bash
+geth --datadir node3/ --ethstats node3:soblo@127.0.0.1:3000 --syncmode 'full' --port 30304 --rpc --rpcaddr "0.0.0.0"  --rpcvhosts=* --rpcport 8547 --rpccorsdomain "*"  --rpcapi 'personal,db,eth,net,web3,txpool,miner' --bootnodes 'enode://8c63ffd64b879eb275ad801c6006812d9a9e78e20ed3297f3e571a26d064206c7d7df884e4e0b167a8bf9ea7e995274150067f90e8463e73f1269cc84baad7d2@127.0.0.1:30301' --networkid 1515 --gasprice '1' -unlock '0xf0fd476b847b5e3771c0f47a1e1ab45cdae0a920' --password password.txt --mine console

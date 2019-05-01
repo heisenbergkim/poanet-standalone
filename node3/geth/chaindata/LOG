@@ -1,0 +1,69 @@
+=============== Mar 20, 2019 (PDT) ===============
+20:41:09.662117 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:41:09.664871 db@open opening
+20:41:09.665492 version@stat F·[] S·0B[] Sc·[]
+20:41:09.674117 db@janitor F·2 G·0
+20:41:09.674146 db@open done T·9.255626ms
+=============== Mar 20, 2019 (PDT) ===============
+20:42:05.678079 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:42:05.678175 version@stat F·[] S·0B[] Sc·[]
+20:42:05.678181 db@open opening
+20:42:05.678216 journal@recovery F·1
+20:42:05.680904 journal@recovery recovering @1
+20:42:05.682535 memdb@flush created L0@2 N·14 S·991B "\t^\x05..\x1d)\xeb,v4":"sec..\xc4ْ,v1"
+20:42:05.684556 version@stat F·[1] S·991B[991B] Sc·[0.25]
+20:42:05.701019 db@janitor F·3 G·0
+20:42:05.701038 db@open done T·22.850452ms
+=============== Mar 21, 2019 (PDT) ===============
+02:37:13.913780 db@close closing
+02:37:13.914257 db@close done T·476.071µs
+=============== Mar 21, 2019 (PDT) ===============
+19:02:09.055701 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:02:09.067393 version@stat F·[1] S·991B[991B] Sc·[0.25]
+19:02:09.067411 db@open opening
+19:02:09.067501 journal@recovery F·1
+19:02:09.149940 journal@recovery recovering @3
+19:02:09.154189 memdb@flush created L0@5 N·173 S·16KiB "\x03\x1b\xa8..yEL,v166":"\xff\x95\x80..\x13\xbc\x1e,v188"
+19:02:09.199841 version@stat F·[2] S·17KiB[17KiB] Sc·[0.50]
+19:02:09.210961 db@janitor F·4 G·0
+19:02:09.210983 db@open done T·143.564651ms
+19:11:00.533858 table@compaction L0·2 -> L1·0 S·17KiB Q·191
+19:11:00.536254 table@build created L1@8 N·143 S·16KiB "\x03\x1b\xa8..yEL,v166":"\xff\x95\x80..\x13\xbc\x1e,v188"
+19:11:00.536292 version@stat F·[0 1] S·16KiB[0B 16KiB] Sc·[0.00 0.00]
+19:11:00.545139 table@compaction committed F-1 S-1KiB Ke·0 D·44 T·11.250439ms
+19:11:00.545183 table@remove removed @5
+19:11:00.545200 table@remove removed @2
+20:13:54.448960 db@close closing
+20:13:54.449971 db@close done T·1.008777ms
+=============== Mar 21, 2019 (PDT) ===============
+20:13:59.884304 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:13:59.884425 version@stat F·[0 1] S·16KiB[0B 16KiB] Sc·[0.00 0.00]
+20:13:59.884432 db@open opening
+20:13:59.884473 journal@recovery F·1
+20:13:59.887142 journal@recovery recovering @6
+20:13:59.888814 memdb@flush created L0@9 N·23 S·2KiB "\x03\xc2\xdd..\xbeg',v208":"\xdf2u..\xa7\x17t,v209"
+20:13:59.891819 version@stat F·[1 1] S·19KiB[2KiB 16KiB] Sc·[0.25 0.00]
+20:13:59.907638 db@janitor F·4 G·0
+20:13:59.907667 db@open done T·23.227103ms
+20:18:44.893594 db@close closing
+20:18:44.893726 db@close done T·130.79µs
+=============== Mar 21, 2019 (PDT) ===============
+20:24:02.066856 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:24:02.067020 version@stat F·[1 1] S·19KiB[2KiB 16KiB] Sc·[0.25 0.00]
+20:24:02.067032 db@open opening
+20:24:02.067074 journal@recovery F·1
+20:24:02.070507 journal@recovery recovering @10
+20:24:02.072111 memdb@flush created L0@12 N·2 S·241B "Dat..ion,v214":"Las..der,v215"
+20:24:02.073879 version@stat F·[2 1] S·19KiB[2KiB 16KiB] Sc·[0.50 0.00]
+20:24:02.090818 db@janitor F·5 G·0
+20:24:02.090837 db@open done T·23.797921ms
+20:30:27.292909 table@compaction L0·2 -> L1·1 S·19KiB Q·230
+20:30:27.295499 table@build created L1@15 N·157 S·18KiB "\x03\x1b\xa8..yEL,v166":"\xff\x95\x80..\x13\xbc\x1e,v188"
+20:30:27.295536 version@stat F·[0 1] S·18KiB[0B 18KiB] Sc·[0.00 0.00]
+20:30:27.306137 table@compaction committed F-2 S-1KiB Ke·0 D·11 T·13.193682ms
+20:30:27.306192 table@remove removed @12
+20:30:27.306209 table@remove removed @9
+20:30:27.306228 table@remove removed @8
+=============== Mar 22, 2019 (PDT) ===============
+02:05:36.052984 db@close closing
+02:05:36.053050 db@close done T·66.345µs
